@@ -24,3 +24,12 @@ checkDataType ={
 }
 console.log("Data type is - "+ typeof checkDataType)
 
+console.log("Data is ;"+JSON.stringify(checkDataType))
+
+//ES has new data type - symbol
+
+var mydata = Symbol("Some Value")
+
+console.log("Data type is  -"+ typeof mydata);
+console.log("Data is  -"+  mydata);
+
